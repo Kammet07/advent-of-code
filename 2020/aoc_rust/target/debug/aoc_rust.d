@@ -1,0 +1,1 @@
+/home/kammet/Documents/Development/advent-of-code/2020/aoc_rust/target/debug/aoc_rust: /home/kammet/Documents/Development/advent-of-code/2020/aoc_rust/src/day_01.rs /home/kammet/Documents/Development/advent-of-code/2020/aoc_rust/src/main.rs
