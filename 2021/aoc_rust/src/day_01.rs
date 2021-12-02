@@ -1,9 +1,20 @@
 pub mod day_01 {
     use crate::utils::utils::read_file;
 
+    fn parse_input() -> Vec<u16> {
+        let file = read_file("assets/day_01.txt");
 
-    pub fn solve_part_one() -> i32 {
-        let input = read_file("assets/day_01.txt");
+        let mut result: Vec<u16> = Vec::new();
+
+        for string in file {
+            result.push(string.parse().expect("error parsing"));
+        }
+
+        return result;
+    }
+
+    pub fn solve_part_one() -> u16 {
+        let input = parse_input();
 
         let mut result = 0;
 
@@ -17,8 +28,8 @@ pub mod day_01 {
     }
 
 
-    pub fn solve_part_two() -> i32 {
-        let input = read_file("assets/day_01.txt");
+    pub fn solve_part_two() -> u16 {
+        let input = parse_input();
 
         let mut result = 0;
 
