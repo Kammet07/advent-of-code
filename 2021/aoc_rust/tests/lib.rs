@@ -6,11 +6,11 @@ mod tests {
 
     #[test]
     fn test_day_01_part_one() {
-        assert_eq!(solve_part_one(), 319531);
+        assert_eq!(solve_part_one(), 1616);
     }
 
     #[test]
     fn test_day_01_part_two() {
-        assert_eq!(solve_part_two(), 244300320);
+        assert_eq!(solve_part_two(), 1645);
     }
 }
